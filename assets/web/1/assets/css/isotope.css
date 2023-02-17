@@ -1,0 +1,79 @@
+.isotope-nav{
+  margin: 0 auto 40px;
+}
+
+.isotope-nav ul li a{
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+#isotope .isotope-item .grid{
+  display: grid;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.portfolio-box .isotope-nav{
+  margin: 0 auto 60px;
+  float: none;
+}
+
+/*-- Isotope Portfolio start --*/
+
+#isotope .isotope-item{
+  padding:0;
+}
+
+.isotope-nav {
+    margin: -80px auto 80px;
+    display: inline-block;
+    float: right;
+    position: relative;
+    z-index: 100;
+}
+
+.isotope-nav ul{
+  list-style: none;
+  margin: 0;
+}
+
+.isotope-nav ul li{
+  float: left;
+  margin-right: 10px;
+}
+
+.isotope-nav ul li a{
+  color: #323232;
+    padding: 5px 15px 8px;
+    border: 1px solid #ddd;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.isotope-nav ul a.active, 
+.isotope-nav ul a:hover{
+  color: #fff;
+  position: relative;
+  border: 1px solid transparent;
+}
+
+.isotope-nav ul a.active:after, 
+.isotope-nav ul a:hover:after{
+    position: absolute;
+    content: " ";
+    width: auto;
+    height: auto;
+    bottom: -13px;
+    margin-left: -8px;
+    left: 50%;
+    border-width: 7px;
+    border-style: solid;
+}
+
+#isotope .isotope-item .grid{
+  position: relative;
+  margin-bottom: -8px;
+}
